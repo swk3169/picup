@@ -1,0 +1,10 @@
+.TravelScheduleListItem {
+  padding:20px;
+  margin:20px;
+}
+
+.TravelScheduleListItem span.schedule {
+  color: #383A3F;
+  font-weight: bold;
+  font-size: 15px;
+}

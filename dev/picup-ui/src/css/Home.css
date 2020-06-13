@@ -1,0 +1,36 @@
+.Home {
+  background-color: #FEECE6;
+  text-align: center;
+  vertical-align:middle;
+}
+
+.fl {
+  background-color: #273B7D;
+  color:#fff;
+  border:0px;
+}
+.kl {
+  background-color: #F7D80F;
+  color:#fff;
+  border:0px;
+}
+
+img.profileImg{
+    width: 100px;
+    height: 100px;
+}
+
+.Header{
+  background-color: #FEECE6;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  font-weight: bold;
+}
+
+.body {
+  width:100%;
+  vertical-align: middle;
+  padding: 10px;
+  background-color: #fff;
+}

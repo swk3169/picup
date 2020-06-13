@@ -1,0 +1,22 @@
+.CommentListItem {
+  margin:20px;
+}
+
+.memberName {
+  font-weight: bold;
+  margin:0px 5px 0px 0px;
+}
+
+.date {
+  font-size: 11px;
+}
+
+.commentMemberProfile {
+  border-radius: 80%;
+  width:40px;
+  height:40px;
+}
+
+.CommentListItem .commentButton {
+  font-size: 11px;
+}

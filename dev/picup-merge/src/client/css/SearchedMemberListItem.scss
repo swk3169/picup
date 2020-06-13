@@ -1,0 +1,42 @@
+/*
+justify-content 속성은 주축을 따라 flex 항목 행을 정렬하는 방식을 지정합니다.
+
+이 속성의 (아무것도 지정하지 않았을 때 적용되는)초기 값은 flex-start이며 이 값을 지정하면 flex 항목 행 내의 항목들은 flex 컨테이너의 시작선에서 부터 정렬됩니다. flex-end로 지정하면 flex 항목 행의 마지막 항목이 flex 컨테이너의 끝선에서 정렬됩니다. center로 지정하면 flex 항목들이 flex 항목 행의 가운데 정렬됩니다.
+
+space-between을 지정하면 주죽 방향 여유 공간을 flex 항목 사이의 공간에 균등 배분합니다. 
+
+space-around는 시작선 및 끝선과 flex 항목간 공간도 균등 배분에 고려하므로 시작선 및 끝선과 flex 항목 간의 공간의 크기를 1로 배분한다면 flex 항목 사이의 공간은 2로 배분합니다. 
+
+space-evenly로 지정하면 여유 공간을 flex 항목 사이의 공간 및 시작선 및 끝선과 flex 항목 간의 공간에 모두 균등하게 배분합니다.
+
+다음 라이브 예제에서 justify-content에 지정할 수 있는 다음 값들을 시험해 볼 수 있습니다.
+
+*/
+
+.SearchedMemberListItem > div {
+  list-style: none;
+  padding: 10px 10px 20px 20px;
+  background-color: white;
+  border-bottom: 1px solid #E3E3E3;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  max-width: 100%;
+}
+
+.SearchedMemberListItem .box {
+  margin : 20px;
+  flex-basis: 33%;
+}
+
+.SearchedMemberListItem .profile {
+  border-radius: 80%;
+}
+
+.SearchedMemberListItem emptyDiv {
+  flex:1; text-align: center;
+}
+
+.SearchedMemberListItem > div > div > span{
+  font-weight: bold;
+}

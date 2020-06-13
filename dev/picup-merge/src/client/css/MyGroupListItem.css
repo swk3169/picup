@@ -1,0 +1,21 @@
+.MyGroupListItem {
+  padding:10px;
+  margin:15px;
+}
+
+.MyGroupListItem > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+}
+
+.MyGroupListItem > span.numOfMember {
+  font-weight: bold;
+  margin: 20px;
+}
+
+.MyGroupListItem > span.groupName {
+  font-weight: bold;
+  margin: 20px;
+}
+

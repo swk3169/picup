@@ -1,0 +1,41 @@
+.ThumnailPost {
+  padding:10px;
+  background-color: rgba(248, 250, 255, 0.534);
+  margin:15px;
+}
+
+.ThumnailPost > img {
+  width: 70px;
+  height: 70px;
+  margin: 1px;
+}
+
+.ThumnailPost > span.like {
+  align-content: 'right';
+  font-weight: bold;
+  margin: 10px;
+}
+
+
+div > span > img {
+  width: 10px;
+  height: 10px;
+}
+
+.ThumnailPost > span.writer {
+  color: #9055A2;
+  font-weight: bold;
+  margin: 5px;
+  
+}
+
+.ThumnailPost > span.date {
+  color: #566270;
+  margin: 5px;
+}
+
+.ThumnailPost > p.contents {
+  color: #383A3F;
+  font-weight: bold;
+  margin: 5px;
+}

@@ -1,0 +1,18 @@
+.Board {
+  background-color: rgba(255, 255, 255, 0.918);
+  margin:25px;
+}
+
+.Board .buttonList {
+  clear: both;
+}
+
+.Board button {
+  margin:5px;
+}
+
+img.AddPost {
+  width: 50px;
+  height: 50px;
+}
+

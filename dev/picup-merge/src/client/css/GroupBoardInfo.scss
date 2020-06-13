@@ -1,0 +1,45 @@
+.BoardInfo {
+  background-color: rgba(255, 255, 255, 0.918);
+  padding:10px;
+}
+
+.BoardInfo > img {
+  border-radius: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.BoardInfo > p {
+  padding:10px;
+  text-align: center;
+}
+
+.fl {
+  background-color: #273B7D;
+  color:#fff;
+  border:0px;
+}
+.kl {
+  background-color: #F7D80F;
+  color:#fff;
+  border:0px;
+}
+
+img.profileImg{
+    width: 100px;
+    height: 100px;
+}
+
+.body {
+  width:100%;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+.groupBtn {
+  float: right;
+  padding: 3px;
+  margin: 3px;
+}

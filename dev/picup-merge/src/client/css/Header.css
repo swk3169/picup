@@ -1,0 +1,28 @@
+.Header{
+  background-color: #FEECE6;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  border: none !important;
+  width:100%;
+  padding:10px;
+}
+
+.Header .Title {
+  margin: 0px 20px;
+}
+
+.Header .Title a {
+  
+}
+
+.Header a {
+  color: black;
+  text-decoration: none !important;
+}
+.Header a:hover {
+   color: black
+}

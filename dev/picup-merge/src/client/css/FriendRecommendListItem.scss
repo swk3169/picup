@@ -1,0 +1,47 @@
+.FriendRecommendListItem {
+  border-bottom: 1px solid #E3E3E3;
+  padding: 10px 20px 20px 30px;
+}
+
+.FriendRecommendListItem > div {
+  list-style: none;
+  padding: 10px 20px 20px 30px;
+  background-color: white;
+  border-bottom: 1px solid #E3E3E3;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
+
+.FriendRecommendListItem > div > div {
+  margin :10px 15px 10px 20px;
+}
+
+.FriendRecommendListItem > div > div > span {
+  font-weight: bold;
+}
+
+.tableProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+}
+
+.tableFriendName {
+  font-weight: bold;
+  font-size:22;
+  margin: 20px;
+  text-align: center;
+}
+
+.tableNum {
+  margin: 5px;
+  padding: 5px;
+}
+
+.tableLikeImage {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+}
+

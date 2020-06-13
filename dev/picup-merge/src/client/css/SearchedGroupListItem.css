@@ -1,0 +1,46 @@
+.ThumnailGroupMoreData {
+  list-style: none;
+  padding: 10px 10px 20px 20px;
+  background-color: white;
+  border-bottom: 1px solid #E3E3E3;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
+
+.groupInfoTable {
+  margin-left:25px;
+}
+
+.groupInfoTable > table > tbody > th,td {
+  padding:5px;
+}
+
+.tableBoardProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+}
+
+.tableGroupName {
+  font-weight: bold;
+  font-size:22;
+  margin: 20px;
+}
+
+.tableTotalLike {
+  margin: 20px;
+  padding: 5px;
+}
+
+.tableNumOfMember {
+  margin: 20px;
+  padding: 5px;
+}
+
+.tableLikeImage {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+}
+

@@ -1,0 +1,25 @@
+.GroupMemberInfo {
+  
+  width: 300px;
+  overflow-x: scroll;
+  white-space: nowrap
+}
+
+.GroupMemberInfo > li {
+  display: inline-block;
+  zoom: 1
+}
+
+
+.GroupMemberInfo > li > img.memberProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 80%;
+  margin: 3px;
+}
+
+.GroupMemberInfo > li > span.memberName {
+  font-weight: bold;
+  margin: 0px 32px 0px 0px;
+  color: #566270;
+}

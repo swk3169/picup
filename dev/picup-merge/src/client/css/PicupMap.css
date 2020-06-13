@@ -1,0 +1,14 @@
+.PicupMap {
+  background-color: #fff;
+  text-align: center;
+  vertical-align:middle;
+  align-content: center;
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+}
+
+.PicupMap > div > button {
+  padding: 10px;
+  margin: 10px;
+}

@@ -1,0 +1,47 @@
+.Navbar {
+    position: fixed;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    border: none !important;
+    margin: 0px;
+    padding: 5px;
+    left:0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+  }
+  
+  .Icon {
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px;
+    color: #000000;
+  }
+  
+  .Navbar .Icon {
+      box-shadow: 0 0 0 4px #ffffff;
+      transition: background 0.2s, color 0.2s;	
+  }
+  
+  .Navbar .Icon:hover {
+      background: #ffffff;
+      color: #f06060;
+  }
+  
+  .Navbar .Icon:hover:before {
+      animation: spinAround 2s linear infinite;
+  }
+  
+  @keyframes spinAround {
+      from {
+          transform: rotate(0deg)
+      }
+      to {
+          transform: rotate(360deg);
+      }
+  }

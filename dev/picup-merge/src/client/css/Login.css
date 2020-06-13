@@ -1,0 +1,41 @@
+.Login {
+  width: 100%;
+  height: 500px;
+}
+
+.Login > a > img {
+  width:100px;
+  height:40px;
+}
+
+.facebooklogin {
+  background-color: #273B7D;
+  color:#fff;
+  border:0px;
+  font-size: 20px;
+  margin: 10px 50px;
+}
+
+.kakaologin {
+  background-color: #fef01b;
+  color:#fff;
+  border:0px;
+  font-size: 20px;
+  margin: 10px 50px;
+}
+
+.snslogin {
+  background-color: #FEECE6;;
+  padding: 20px;
+  margin: 50px;
+}
+
+.kakaologin > a {
+  color:#000;
+  font-size: 20px;
+}
+
+.facebooklogin > a {
+  color:#fff;
+  font-size: 20px;
+}

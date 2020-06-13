@@ -1,0 +1,24 @@
+.SearchPicupMap {
+  background-color: #fff;
+  text-align: center;
+  vertical-align:middle;
+  align-content: center;
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+}
+
+.SearchPicupMap > div > button {
+  padding: 10px;
+  margin: 10px;
+}
+
+.SearchPicupMap > button {
+  padding: 5px;
+  margin: 5px;
+}
+
+.locationSpan {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 22px;
+}

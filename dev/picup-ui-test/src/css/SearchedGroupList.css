@@ -1,0 +1,9 @@
+.SearchedGroupList > span {
+  display:block;
+  background-color: #FEECE6;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 22px;
+  margin:10px;
+  font-weight: bold;
+}
+

@@ -1,0 +1,88 @@
+.PostListItem {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.PostListItem img.thumnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.PostListItem > span.like {
+  align-content: 'right';
+  font-weight: bold;
+  margin: 10px;
+}
+
+div > span > img {
+  width: 10px;
+  height: 10px;
+}
+
+.PostListItem > span.writer {
+  color: #9055A2;
+  font-weight: bold;
+  margin: 5px;
+  
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.PostListItem > span.date {
+  color: #566270;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.PostListItem > p.contents {
+  color: #383A3F;
+  font-weight: bold;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .PostListItem img.thumnail {
+    width: 50%;
+    height: auto;
+  }
+  
+  .PostListItem > span.like {
+    align-content: 'right';
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  div > span > img {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .PostListItem > span.writer {
+    color: #9055A2;
+    font-weight: bold;
+    margin: 5px;
+    
+  }
+  
+  .dot {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+  
+  .PostListItem > span.date {
+    color: #566270;
+    margin: 5px;
+    font-size: 12px;
+  }
+  
+  .PostListItem > p.contents {
+    color: #383A3F;
+    font-weight: bold;
+    margin: 5px;
+  }
+}

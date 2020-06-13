@@ -1,0 +1,17 @@
+.PicturePostListItem {
+  padding:0px;
+  margin:0px;
+}
+
+.PicturePostListItem span.schedule {
+  color: #383A3F;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.PicturePostListItem img {
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  border-radius: 10%;
+}

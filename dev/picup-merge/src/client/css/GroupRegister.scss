@@ -1,0 +1,35 @@
+.GroupRegister > form > div > img {
+  width:150px;
+  height:150px;
+  border-radius: 80%;
+}
+
+.GroupRegister .caninvitecheck {
+  margin-left: 20%;
+}
+
+.GroupRegister > form {
+  margin: 15px;
+}
+
+.canInviteText {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.GroupMemberItem {
+  margin:10px;
+}
+
+.GroupMemberItem > img {
+  margin:10px 30px;
+  border-radius: 80%;
+}
+
+.GroupMemberItem > label {
+  margin:10px 20px;
+}
+
+.AddGroupButton {
+  margin:5px;
+  padding:3px;
+}

@@ -1,0 +1,22 @@
+.btn {
+	background-color:#f06060;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid #feece6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	padding:8px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #feece6;
+}
+.btn:hover {
+	background-color:#feece6;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
